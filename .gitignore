@@ -1,0 +1,6 @@
+# Readable copies of the dashboard must never be committed: only the encrypted index.html is published.
+*.html
+!index.html
+.site-build/
+encrypted/
+.DS_Store
